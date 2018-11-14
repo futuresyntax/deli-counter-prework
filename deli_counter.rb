@@ -5,9 +5,15 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli,"name")
-  puts #{name, katz_deli +1}
+  puts name, katz_deli +1
 end
 
+def now_serving(name)
+  puts katz_deli.shift 
+  if katz_deli == 0
+    puts "There is nobody waiting to be served!"
+  end
+end
 
 
 
