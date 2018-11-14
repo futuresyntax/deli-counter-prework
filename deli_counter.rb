@@ -4,6 +4,9 @@ def line(katz_deli)
   end
 end
 
+def take_a_number(katz_deli,"name")
+  puts #{name, katz_deli +1}
+end
 
 
 
