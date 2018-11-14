@@ -1,5 +1,6 @@
 def line(pil)
   pil == 0 ? "The line is currently empty."
+end
 
 
 
