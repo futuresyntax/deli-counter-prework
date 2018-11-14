@@ -1,5 +1,5 @@
 def line(pil)
-  if pil == 0
+  if pil.length == 0
     return "The line is currently empty."
   end
 
