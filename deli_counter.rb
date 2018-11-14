@@ -9,7 +9,7 @@ def take_a_number(katz_deli,"name")
 end
 
 def now_serving(name)
-  puts katz_deli.shift 
+  puts katz_deli.shift
   if katz_deli == 0
     puts "There is nobody waiting to be served!"
   end
